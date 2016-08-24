@@ -30,4 +30,6 @@ function parseCSV2JSON($filename)
 }
 
 
-echo parseCSV2JSON('manusia.csv');
+$json = parseCSV2JSON('manusia.csv');
+
+echo $json;
